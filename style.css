@@ -1,0 +1,119 @@
+body {
+    background-color: black;
+}
+
+.container-fluid {
+    height: 100%;
+}
+
+/*Navbar and Footer*/
+.logo {
+    height: 100px;
+
+}
+
+nav {
+    font-size: 20px;
+}
+
+nav-item a {
+    color: #eebc0e;
+    ;
+}
+
+nav li a::selection {
+    background-color: #ffc107;
+    color: black;
+}
+
+.redes {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    font-size: 30px;
+    color: grey;
+}
+
+
+
+.redes i:hover {
+    transform: scale(1.7);
+    cursor: pointer;
+
+}
+
+.copy-footer {
+    display: flex;
+    justify-content: center;
+    background-color: black;
+}
+
+.copy-footer p::selection {
+    background-color: #ffc107;
+    color: black;
+}
+
+/*main*/
+
+.flex-container-main {
+    height: 500px;
+    background-image: url(img/ricardo1.jpg);
+    background-position: center;
+    background-size: cover;
+
+}
+
+/*Biografia*/
+
+.main-bio {
+    background-color: black;
+    margin-top: 40px;
+    margin-bottom: 40px;
+
+}
+
+.bio-img img {
+    width: 500px;
+    height: 500px;
+    object-fit: cover;
+    margin-top: 50px;
+}
+
+.bio-img img::selection {
+    background-color: #ffc107;
+    color: black;
+
+}
+
+.bio-text {
+    color: grey;
+}
+
+.bio-text p::selection {
+    background-color: #ffc107;
+    color: black;
+}
+
+.bio-text p::first-letter {
+    font-size: 30px;
+    color: #ffc107;
+}
+
+/*Galeria*/
+
+#carrousel {
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+.galeria-container img {
+    height: 400px;
+    object-fit: contain;
+
+}
+
+/*Django*/
+
+h2{
+    color: white;
+}
